@@ -1,0 +1,21 @@
+.Fitness-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 12px;
+}
+
+.Fitness-list > li {
+  font-size: 1.5em;
+  color: #282c34;
+  margin: 4px 0px;
+  background-color: #b6c9bb;
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+}
+
+@media (min-width: 768px) {
+  .Fitness-list > li {
+    font-size: 2em;
+  }
+}

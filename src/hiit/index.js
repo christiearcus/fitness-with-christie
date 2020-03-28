@@ -2,13 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom";
 import exercises from "./hiitData";
 
+import "../App.css";
+import "../Fitness.css";
+
 const Hiit = () => {
   return (
     <>
-      <Link to="/">Back to home</Link>
-      {exercises.map((exercise, index) => {
-        return <li>{`${index + 1}. ${exercise}`}</li>;
-      })}
+      <div>
+        <Link className="App-button-link" to="/">
+          <i class="fas fa-arrow-left"></i>
+          Back to home
+        </Link>
+      </div>
+      <ul className="Fitness-list">
+        {exercises.map(exercise => {
+          return <li>{exercise}</li>;
+        })}
+      </ul>
     </>
   );
 };

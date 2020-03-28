@@ -4,13 +4,22 @@ import Hiit from "./hiit";
 import Stretch from "./stretch";
 
 import "./App.css";
+import "./Normalize.css";
 
 const Home = () => {
   return (
     <div className="App">
-      <h1>How do you want to workout?</h1>
-      <Link to="/hiit">HIIT</Link>
-      <Link to="/stretch">Stretch</Link>
+      <div className="Home-welcome">
+        <h1>How do you want to workout?</h1>
+        <div className="Home-links">
+          <Link className="App-button-link" to="/hiit">
+            HIIT
+          </Link>
+          <Link className="App-button-link" to="/stretch">
+            Stretch
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
