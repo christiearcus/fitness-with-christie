@@ -8,6 +8,7 @@ const stretches = [
   "lizard lunge twist",
   "shin to shin",
   "forward folded cow face pose",
+  "puppy pose",
 ];
 
 export default stretches.sort(() => {
