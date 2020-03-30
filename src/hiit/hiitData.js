@@ -4,10 +4,10 @@ const exercises = [
   "plank star jumps",
   "toe points",
   "plank taps",
-  "squat lift",
+  "squat lift or jump",
   "crunches",
   "regular push up",
-  "bikes",
+  "bicycle crunches",
   "shrimp or pistol squat",
   "pop ups",
   "mountain climbers",
@@ -15,8 +15,9 @@ const exercises = [
   "tricep dips or push up",
   "courtsies",
   "bend leg toe taps",
+  "wall sit",
 ];
 
-export default exercises.sort(() => {
+export default exercises.slice(0, 10).sort(() => {
   return 0.5 - Math.random();
 });

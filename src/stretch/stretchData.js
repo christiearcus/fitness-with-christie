@@ -1,16 +1,15 @@
 const stretches = [
-  "seated forward fold",
+  "forward fold",
   "frog pose",
   "pigeon pose",
   "splits",
-  "wide child's pose",
-  "crossed legs",
+  "child's pose",
+  "lotus forward fold",
   "lizard lunge twist",
-  "shin to shin",
   "forward folded cow face pose",
   "puppy pose",
 ];
 
-export default stretches.sort(() => {
+export default stretches.slice(0, 5).sort(() => {
   return 0.5 - Math.random();
 });
