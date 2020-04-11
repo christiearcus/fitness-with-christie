@@ -17,10 +17,14 @@
   .Home-links {
     display: flex;
   }
+  .Home-links > a {
+    margin: 5px;
+  }
 }
 
 .Home-links > a {
   display: block;
+  margin-bottom: 5px;
 }
 
 /* Globals */
@@ -42,8 +46,8 @@ html {
 }
 
 .App-button-link {
-  color: #282c34;
-  background: #b6c9bb;
+  color: #f3f7f0;
+  background: #c64962;
   padding: 12px 24px;
   border-radius: 24px;
   font-size: 16px;
@@ -51,12 +55,11 @@ html {
   cursor: pointer;
   text-decoration: none;
   border: 1px solid transparent;
-  margin: 12px;
   display: inline-block;
 }
 
 .App-button-link > i {
-  color: #282c34;
+  color: #f3f7f0;
   margin-right: 4px;
 }
 
