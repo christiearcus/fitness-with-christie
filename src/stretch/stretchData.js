@@ -1,3 +1,5 @@
+import dataShuffler from "../lib/data-shuffler";
+
 const stretches = [
   "forward fold",
   "frog pose",
@@ -10,6 +12,4 @@ const stretches = [
   "puppy pose",
 ];
 
-export default stretches.slice(0, 5).sort(() => {
-  return 0.5 - Math.random();
-});
+export default dataShuffler(stretches).slice(0, 5);

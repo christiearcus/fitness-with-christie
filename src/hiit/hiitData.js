@@ -1,3 +1,5 @@
+import dataShuffler from "../lib/data-shuffler";
+
 const exercises = [
   "calf raises",
   "burpees",
@@ -18,6 +20,4 @@ const exercises = [
   "wall sit",
 ];
 
-export default exercises.slice(0, 10).sort(() => {
-  return 0.5 - Math.random();
-});
+export default dataShuffler(exercises).slice(0, 10);
