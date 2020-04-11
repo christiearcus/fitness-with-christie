@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Hiit from "./hiit";
 import Stretch from "./stretch";
 
@@ -26,7 +26,7 @@ const Home = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Switch>
         <Route path="/stretch">
           <Stretch />
