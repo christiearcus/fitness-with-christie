@@ -1,4 +1,4 @@
-import dataShuffler from "../lib/data-shuffler";
+import dataShuffler from "../lib/dataShuffler";
 
 const stretches = [
   "forward fold",

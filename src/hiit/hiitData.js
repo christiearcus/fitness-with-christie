@@ -1,4 +1,4 @@
-import dataShuffler from "../lib/data-shuffler";
+import dataShuffler from "../lib/dataShuffler";
 
 const exercises = [
   "calf raises",
@@ -18,6 +18,9 @@ const exercises = [
   "courtsies",
   "bend leg toe taps",
   "wall sit",
+  "prayer squat to fold",
+  "surfer squats",
+  "kick through burpees",
 ];
 
 export default dataShuffler(exercises).slice(0, 10);
