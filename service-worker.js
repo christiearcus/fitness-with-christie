@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fitness-with-christie/precache-manifest.5b98b33d2b8bde9b2dc4b95542a3bb3a.js"
+  "/fitness-with-christie/precache-manifest.b85e6f2a08ae31dcd89f90161df07767.js"
 );
 
 self.addEventListener('message', (event) => {
