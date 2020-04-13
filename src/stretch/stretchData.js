@@ -10,6 +10,7 @@ const stretches = [
   "lizard lunge twist",
   "forward folded cow face pose",
   "puppy pose",
+  "downward dog stretch",
 ];
 
 export default dataShuffler(stretches).slice(0, 5);
