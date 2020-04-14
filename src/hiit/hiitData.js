@@ -22,6 +22,9 @@ const exercises = [
   "surfer squats",
   "kick through burpees",
   "hand stand",
+  "kettle bell swings",
+  "running high legs",
+  "star jumps",
 ];
 
 export default dataShuffler(exercises).slice(0, 10);
