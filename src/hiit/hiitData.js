@@ -25,6 +25,7 @@ const exercises = [
   "kettle bell swings",
   "running high legs",
   "star jumps",
+  "kettle bell dips",
 ];
 
 export default dataShuffler(exercises).slice(0, 10);
