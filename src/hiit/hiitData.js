@@ -3,6 +3,7 @@ import dataShuffler from "../lib/dataShuffler";
 const exercises = [
   "calf raises",
   "burpees",
+  "reverse burpees",
   "plank star jumps",
   "toe points",
   "plank taps",
@@ -11,7 +12,10 @@ const exercises = [
   "regular push up",
   "bicycle crunches",
   "shrimp squat",
-  "pop ups",
+  "shortboard pop ups",
+  "longboard pop ups",
+  "switch pop ups",
+  "active scandasana",
   "mountain climbers",
   "lunges",
   "tricep dips / push up",
@@ -26,6 +30,7 @@ const exercises = [
   "running high legs",
   "star jumps",
   "kettle bell dips",
+  "bear walk",
 ];
 
 export default dataShuffler(exercises).slice(0, 10);
