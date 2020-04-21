@@ -8,10 +8,14 @@ const stretches = [
   "child's pose",
   "lotus forward fold",
   "lizard lunge twist",
-  "forward folded cow face pose",
+  "hip flexor wall stretch",
+  "yogi squat",
+  "folded cow face pose",
   "puppy pose",
   "downward dog stretch",
-  "scandasana",
+  "scandasana stretch",
+  "wrist stretch",
+  "wall shoulder stretch",
 ];
 
 export default dataShuffler(stretches).slice(0, 5);
