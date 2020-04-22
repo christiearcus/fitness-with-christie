@@ -7,6 +7,7 @@ const exercises = [
   "plank star jumps",
   "toe points",
   "plank taps",
+  "plank",
   "squat lift or jump",
   "crunches",
   "regular push up",
@@ -20,7 +21,7 @@ const exercises = [
   "lunges",
   "tricep dips / push up",
   "courtsies",
-  "bend leg toe taps",
+  "bent leg toe taps or slides",
   "wall sit",
   "prayer squat to fold",
   "surfer squats",
@@ -31,6 +32,8 @@ const exercises = [
   "star jumps",
   "kettle bell dips",
   "bear walk",
+  "dish hold",
+  "cobra paddling holds",
 ];
 
 export default dataShuffler(exercises).slice(0, 10);
