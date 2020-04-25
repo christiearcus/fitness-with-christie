@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.ReactCollapse--content {
+  background: orange;
+}
+
 @media (min-width: 768px) {
   .activity-list > li {
     font-size: 2em;

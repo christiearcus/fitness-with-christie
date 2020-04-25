@@ -1,12 +1,24 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Collapse } from "react-collapse";
 
 import "../App.css";
 import "./styles.css";
 
 const ActivityList = ({ items }) => {
   const getSize = () => window.innerWidth;
+  const setItemKeys = () => {
+    return [
+      items.map((_, index) => ({
+        [`item-${index}`]: false,
+      })),
+    ];
+  };
+
   const [windowSize] = useState(getSize);
+  const [isOpen, toggleIsOpen] = useState(setItemKeys());
+
+  console.log("hi", isOpen);
 
   return (
     <div className="activity-list">
@@ -17,8 +29,18 @@ const ActivityList = ({ items }) => {
         </Link>
       </div>
       <ul className="activity-list">
-        {items.map((item) => {
-          return <li>{item}</li>;
+        {items.map((item, index) => {
+          return (
+            <>
+              <li onClick={() => toggleIsOpen(!isOpen)}>{item}</li>
+              <Collapse
+                className="activity-list-description"
+                isOpened={() => isOpen[index][`item-${index}`]}
+              >
+                hi mate
+              </Collapse>
+            </>
+          );
         })}
       </ul>
     </div>
