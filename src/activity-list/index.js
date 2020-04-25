@@ -9,7 +9,7 @@ const ActivityList = ({ items }) => {
   const [windowSize] = useState(getSize);
 
   return (
-    <>
+    <div className="activity-list">
       <div className="activity-list-nav">
         <Link className="App-button-link" to="/">
           <i class="fas fa-arrow-left"></i>
@@ -21,7 +21,7 @@ const ActivityList = ({ items }) => {
           return <li>{item}</li>;
         })}
       </ul>
-    </>
+    </div>
   );
 };
 

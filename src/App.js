@@ -4,7 +4,6 @@ import Hiit from "./hiit";
 import Stretch from "./stretch";
 
 import "./App.css";
-import "./Normalize.css";
 
 const Home = () => {
   return (
