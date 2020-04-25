@@ -1,16 +1,16 @@
-.Fitness-list {
+.activity-list {
   display: grid;
   height: 100vh;
   background: black;
 }
 
-.Fitness-list-nav {
+.activity-list-nav {
   position: absolute;
   top: 10px;
   right: 10px;
 }
 
-.Fitness-list > li {
+.activity-list > li {
   font-size: 1.5em;
   font-weight: bold;
   color: #fff;
@@ -22,13 +22,13 @@
   align-items: center;
 }
 
-.Fitness-list > li:nth-child(even) {
+.activity-list > li:nth-child(even) {
   background: #fff;
   color: #c64962;
 }
 
 @media (min-width: 768px) {
-  .Fitness-list > li {
+  .activity-list > li {
     font-size: 2em;
   }
 }

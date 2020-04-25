@@ -1,9 +1,9 @@
 import React from "react";
-import FitnessList from "../fitness-list";
+import ActivityList from "../activity-list";
 import exercises from "./hiitData";
 
 const Hiit = () => {
-  return <FitnessList items={exercises} />;
+  return <ActivityList items={exercises} />;
 };
 
 export default Hiit;
