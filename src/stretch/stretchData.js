@@ -16,6 +16,8 @@ const stretches = [
   "scandasana stretch",
   "wrist stretch",
   "wall shoulder stretch",
+  "half frog",
+  "sitting middle splits fold",
 ];
 
 export default dataShuffler(stretches).slice(0, 5);
