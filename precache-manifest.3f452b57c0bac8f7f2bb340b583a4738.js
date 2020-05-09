@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54aa250c09e3db0917e48e15d2fe5419",
+    "revision": "e590a4b4b922b74b9bbc03d9da65dddc",
     "url": "/fitness-with-christie/index.html"
   },
   {
-    "revision": "0faacf81826918f8541a",
-    "url": "/fitness-with-christie/static/css/main.c04e5bb2.chunk.css"
+    "revision": "e19502b4a336af0398fb",
+    "url": "/fitness-with-christie/static/css/main.7cb4d3d8.chunk.css"
   },
   {
     "revision": "b73998337cbbfc34fe2d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitness-with-christie/static/js/2.9ffa1bf2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0faacf81826918f8541a",
-    "url": "/fitness-with-christie/static/js/main.498a7455.chunk.js"
+    "revision": "e19502b4a336af0398fb",
+    "url": "/fitness-with-christie/static/js/main.c10347d0.chunk.js"
   },
   {
     "revision": "a3d2895aed6048353ca0",
