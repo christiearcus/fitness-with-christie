@@ -11,6 +11,10 @@
   right: 20px;
 }
 
+.activity-list-shuffle {
+  margin-right: 5px;
+}
+
 .activity-list > li {
   font-size: 1.5em;
   font-weight: bold;

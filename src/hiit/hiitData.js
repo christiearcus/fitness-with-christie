@@ -36,4 +36,4 @@ const exercises = [
   "cobra paddling holds",
 ];
 
-export default dataShuffler(exercises).slice(0, 10);
+export default dataShuffler(exercises);

@@ -20,4 +20,4 @@ const stretches = [
   "sitting middle splits fold",
 ];
 
-export default dataShuffler(stretches).slice(0, 5);
+export default dataShuffler(stretches);
