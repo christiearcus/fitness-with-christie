@@ -16,19 +16,21 @@ const ActivityList = ({ items, size }) => {
   return (
     <div className="activity-list">
       <div className="activity-list-nav">
-        <button
-          className="activity-list-shuffle App-button-link"
-          onClick={() => setActivities(shuffleActivities(items, size))}
-        >
-          <i class="fas fa-random"></i>
-          Shuffle
-        </button>
-        <Link className="App-button-link" to="/">
-          <i class="fas fa-arrow-left"></i>
-          {windowSize > 768 ? "Back to home" : ""}
-        </Link>
+        <div className="activity-list-nav-inner">
+          <button
+            className="activity-list-shuffle App-button-link"
+            onClick={() => setActivities(shuffleActivities(items, size))}
+          >
+            <i class="fas fa-random"></i>
+            Shuffle
+          </button>
+          <Link className="App-button-link" to="/">
+            <i class="fas fa-arrow-left"></i>
+            {windowSize > 768 ? "Back to home" : ""}
+          </Link>
+        </div>
       </div>
-      <ul className="activity-list">
+      <ul className="activity-list-items">
         {activities.map((activity) => {
           return <li>{activity}</li>;
         })}
