@@ -21,18 +21,18 @@ const ActivityList = ({ items, size }) => {
             className="activity-list-shuffle App-button-link"
             onClick={() => setActivities(shuffleActivities(items, size))}
           >
-            <i class="fas fa-random"></i>
+            <i className="fas fa-random"></i>
             Shuffle
           </button>
           <Link className="App-button-link" to="/">
-            <i class="fas fa-arrow-left"></i>
+            <i className="fas fa-arrow-left"></i>
             {windowSize > 768 ? "Back to home" : ""}
           </Link>
         </div>
       </div>
       <ul className="activity-list-items">
-        {activities.map((activity) => {
-          return <li>{activity}</li>;
+        {activities.map((activity, index) => {
+          return <li key={`activity-${index}`}>{activity}</li>;
         })}
       </ul>
     </div>
