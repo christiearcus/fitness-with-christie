@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import ActivityClock from "../activity-clock";
 import dataShuffler from "../lib/dataShuffler";
 
 import "../App.css";
@@ -30,6 +31,7 @@ const ActivityList = ({ items, size }) => {
           </Link>
         </div>
       </div>
+      <ActivityClock />
       <ul className="activity-list-items">
         {activities.map((activity, index) => {
           return <li key={`activity-${index}`}>{activity}</li>;

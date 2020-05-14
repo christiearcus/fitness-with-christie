@@ -15,6 +15,7 @@
 
 .activity-list-shuffle {
   margin-right: 10px;
+  margin-right: 10px;
 }
 
 .activity-list-items {
@@ -41,12 +42,8 @@
     right: 40px;
   }
 
-  .activity-list-shuffle {
-    margin-right: 20px;
-  }
-
   .activity-list-items > li {
     font-size: 2em;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 }
