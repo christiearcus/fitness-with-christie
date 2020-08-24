@@ -34,6 +34,8 @@ const exercises = [
   "bear walk",
   "dish hold",
   "cobra paddling holds",
+  "on back toe taps",
+  "squat pulses",
 ];
 
 export default dataShuffler(exercises);
