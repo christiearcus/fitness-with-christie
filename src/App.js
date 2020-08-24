@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Hiit from "./hiit";
 import Stretch from "./stretch";
+import Debug from "./debug";
 
 import "./App.css";
 
@@ -27,6 +28,9 @@ function App() {
   return (
     <Router basename="/">
       <Switch>
+        <Route path="/debug">
+          <Debug />
+        </Route>
         <Route path="/stretch">
           <Stretch />
         </Route>
